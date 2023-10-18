@@ -1,0 +1,18 @@
+ADVANTAGES
+  - Dynamic data structure: It can grow and shrink at runtime by allocating and de-allocating memory, so there is no need to give the initial size of the list
+  - Implementation: Linear data structures like stack and queue are often easily implemented using linked list
+  - Insertion and Deletion Operations: Insertion and deletion is quite easier as compared to array because there is no need to shift  elements
+  - Flexible: Elements in Linked List are not stored in contiguous memory locations
+
+DISADVANTAGES
+  - Memory Usage: More memory is required as compared to array because it stored value as well as the pointer to next node
+  - Traversal: It is more time-consuming as compared to an array as there is no index. We have to traverse all the elements before that
+  - Random access: Accessing element by index is not possible
+  - Not suited for small dataset: Cannot provide significant benefits on small dataset compared to array.
+
+TIME COMPLEXITIES
+  - Traverse elements -> O(n)
+  - Insert element at the beginning -> O(1)
+  - Insert element at any index -> O(n)
+  - Delete first/last element -> O(1)
+  - Delete element at any index -> O(n)
